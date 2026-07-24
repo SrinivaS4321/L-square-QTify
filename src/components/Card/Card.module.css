@@ -1,0 +1,34 @@
+.card {
+  width: 160px;
+  border-radius: 10px;
+  overflow: hidden;
+  background: #121212;
+}
+
+.imageContainer {
+  position: relative;
+}
+
+.image {
+  width: 100%;
+  height: 205px;
+  object-fit: cover;
+  display: block;
+}
+
+.chip {
+  position: absolute;
+  left: 8px;
+  bottom: 8px;
+}
+
+.bottom {
+  background: white;
+  padding: 8px;
+}
+
+.title {
+  margin: 0;
+  font-size: 14px;
+  font-weight: 600;
+}
