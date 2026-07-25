@@ -8,14 +8,9 @@ function Carousel({ data, renderComponent }) {
   return (
     <Swiper
       modules={[Navigation]}
-      navigation
+      navigation={true}
+      slidesPerView={7}
       spaceBetween={20}
-      breakpoints={{
-        320: { slidesPerView: 2 },
-        640: { slidesPerView: 3 },
-        768: { slidesPerView: 4 },
-        1024: { slidesPerView: 6 },
-      }}
     >
       {data.map((item) => (
         <SwiperSlide key={item.id}>
